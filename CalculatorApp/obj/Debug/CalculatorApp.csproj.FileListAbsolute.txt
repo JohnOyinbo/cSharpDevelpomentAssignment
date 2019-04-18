@@ -1,0 +1,14 @@
+C:\Users\John Oyinbo\source\repos\BaseConverter\CalculatorApp\obj\Debug\CalculatorApp.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\BaseConverter\CalculatorApp\obj\Debug\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\BaseConverter\CalculatorApp\bin\Debug\CalculatorApp.exe.config
+C:\Users\John Oyinbo\source\repos\BaseConverter\CalculatorApp\bin\Debug\CalculatorApp.exe
+C:\Users\John Oyinbo\source\repos\BaseConverter\CalculatorApp\bin\Debug\CalculatorApp.pdb
+C:\Users\John Oyinbo\source\repos\BaseConverter\CalculatorApp\obj\Debug\CalculatorApp.exe
+C:\Users\John Oyinbo\source\repos\BaseConverter\CalculatorApp\obj\Debug\CalculatorApp.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\CalculatorApp\bin\Debug\CalculatorApp.exe.config
+C:\Users\John Oyinbo\source\repos\ConsoleApps\CalculatorApp\bin\Debug\CalculatorApp.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\CalculatorApp\bin\Debug\CalculatorApp.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\CalculatorApp\obj\Debug\CalculatorApp.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\CalculatorApp\obj\Debug\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\CalculatorApp\obj\Debug\CalculatorApp.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\CalculatorApp\obj\Debug\CalculatorApp.pdb

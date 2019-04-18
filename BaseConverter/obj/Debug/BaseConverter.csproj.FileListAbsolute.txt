@@ -1,0 +1,14 @@
+C:\Users\John Oyinbo\source\repos\BaseConverter\BaseConverter\bin\Debug\BaseConverter.exe.config
+C:\Users\John Oyinbo\source\repos\BaseConverter\BaseConverter\bin\Debug\BaseConverter.exe
+C:\Users\John Oyinbo\source\repos\BaseConverter\BaseConverter\bin\Debug\BaseConverter.pdb
+C:\Users\John Oyinbo\source\repos\BaseConverter\BaseConverter\obj\Debug\BaseConverter.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\BaseConverter\BaseConverter\obj\Debug\BaseConverter.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\BaseConverter\BaseConverter\obj\Debug\BaseConverter.exe
+C:\Users\John Oyinbo\source\repos\BaseConverter\BaseConverter\obj\Debug\BaseConverter.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\bin\Debug\BaseConverter.exe.config
+C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\bin\Debug\BaseConverter.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\bin\Debug\BaseConverter.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\obj\Debug\BaseConverter.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\obj\Debug\BaseConverter.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\obj\Debug\BaseConverter.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\obj\Debug\BaseConverter.pdb

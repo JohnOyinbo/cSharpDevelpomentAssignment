@@ -1,0 +1,14 @@
+C:\Users\John Oyinbo\source\repos\BaseConverter\LearningOOP\bin\Debug\LearningOOP.exe.config
+C:\Users\John Oyinbo\source\repos\BaseConverter\LearningOOP\bin\Debug\LearningOOP.exe
+C:\Users\John Oyinbo\source\repos\BaseConverter\LearningOOP\bin\Debug\LearningOOP.pdb
+C:\Users\John Oyinbo\source\repos\BaseConverter\LearningOOP\obj\Debug\LearningOOP.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\BaseConverter\LearningOOP\obj\Debug\LearningOOP.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\BaseConverter\LearningOOP\obj\Debug\LearningOOP.exe
+C:\Users\John Oyinbo\source\repos\BaseConverter\LearningOOP\obj\Debug\LearningOOP.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\bin\Debug\LearningOOP.exe.config
+C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\bin\Debug\LearningOOP.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\bin\Debug\LearningOOP.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\obj\Debug\LearningOOP.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\obj\Debug\LearningOOP.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\obj\Debug\LearningOOP.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\obj\Debug\LearningOOP.pdb

@@ -1,0 +1,14 @@
+C:\Users\John Oyinbo\source\repos\BaseConverter\NumberToString\bin\Debug\NumberToString.exe.config
+C:\Users\John Oyinbo\source\repos\BaseConverter\NumberToString\bin\Debug\NumberToString.exe
+C:\Users\John Oyinbo\source\repos\BaseConverter\NumberToString\bin\Debug\NumberToString.pdb
+C:\Users\John Oyinbo\source\repos\BaseConverter\NumberToString\obj\Debug\NumberToString.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\BaseConverter\NumberToString\obj\Debug\NumberToString.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\BaseConverter\NumberToString\obj\Debug\NumberToString.exe
+C:\Users\John Oyinbo\source\repos\BaseConverter\NumberToString\obj\Debug\NumberToString.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberToString\bin\Debug\NumberToString.exe.config
+C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberToString\bin\Debug\NumberToString.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberToString\bin\Debug\NumberToString.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberToString\obj\Debug\NumberToString.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberToString\obj\Debug\NumberToString.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberToString\obj\Debug\NumberToString.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberToString\obj\Debug\NumberToString.pdb

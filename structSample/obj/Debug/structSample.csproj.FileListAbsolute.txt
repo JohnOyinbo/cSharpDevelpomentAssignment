@@ -1,0 +1,14 @@
+C:\Users\John Oyinbo\source\repos\BaseConverter\structSample\bin\Debug\structSample.exe.config
+C:\Users\John Oyinbo\source\repos\BaseConverter\structSample\bin\Debug\structSample.exe
+C:\Users\John Oyinbo\source\repos\BaseConverter\structSample\bin\Debug\structSample.pdb
+C:\Users\John Oyinbo\source\repos\BaseConverter\structSample\obj\Debug\structSample.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\BaseConverter\structSample\obj\Debug\structSample.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\BaseConverter\structSample\obj\Debug\structSample.exe
+C:\Users\John Oyinbo\source\repos\BaseConverter\structSample\obj\Debug\structSample.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\structSample\bin\Debug\structSample.exe.config
+C:\Users\John Oyinbo\source\repos\ConsoleApps\structSample\bin\Debug\structSample.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\structSample\bin\Debug\structSample.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\structSample\obj\Debug\structSample.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\structSample\obj\Debug\structSample.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\structSample\obj\Debug\structSample.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\structSample\obj\Debug\structSample.pdb
