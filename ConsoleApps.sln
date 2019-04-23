@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorApp", "Calculator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysToChristmas", "DaysToChristmas\DaysToChristmas.csproj", "{77AFC9FC-CB53-4C11-AA4B-0F073BA931D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberParity", "NumberParity\NumberParity.csproj", "{9FFD1F34-9D0B-40FA-AC1E-91BA4B835C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradingApp", "GradingApp\GradingApp.csproj", "{FEC27DA6-BA8B-4550-BA6E-6FE8FFE4A34E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{77AFC9FC-CB53-4C11-AA4B-0F073BA931D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77AFC9FC-CB53-4C11-AA4B-0F073BA931D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77AFC9FC-CB53-4C11-AA4B-0F073BA931D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFD1F34-9D0B-40FA-AC1E-91BA4B835C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFD1F34-9D0B-40FA-AC1E-91BA4B835C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFD1F34-9D0B-40FA-AC1E-91BA4B835C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFD1F34-9D0B-40FA-AC1E-91BA4B835C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC27DA6-BA8B-4550-BA6E-6FE8FFE4A34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC27DA6-BA8B-4550-BA6E-6FE8FFE4A34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC27DA6-BA8B-4550-BA6E-6FE8FFE4A34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC27DA6-BA8B-4550-BA6E-6FE8FFE4A34E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

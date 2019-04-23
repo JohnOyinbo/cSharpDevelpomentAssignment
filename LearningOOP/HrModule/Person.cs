@@ -9,6 +9,7 @@ namespace HumansourceManager.HrModule
 {
     public class Person
     {
+
         private float height;
         private string firstName;
         private string lastName;

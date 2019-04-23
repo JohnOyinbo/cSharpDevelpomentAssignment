@@ -1,0 +1,6 @@
+C:\Users\John Oyinbo\source\repos\ConsoleApps\GradingApp\bin\Debug\GradingApp.exe.config
+C:\Users\John Oyinbo\source\repos\ConsoleApps\GradingApp\bin\Debug\GradingApp.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\GradingApp\bin\Debug\GradingApp.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\GradingApp\obj\Debug\GradingApp.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\GradingApp\obj\Debug\GradingApp.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\GradingApp\obj\Debug\GradingApp.pdb

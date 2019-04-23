@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C5BF0ED6-66E1-4FF2-BA08-678F923F1144}</ProjectGuid>
+    <ProjectGuid>{FEC27DA6-BA8B-4550-BA6E-6FE8FFE4A34E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LearningOOP</RootNamespace>
-    <AssemblyName>LearningOOP</AssemblyName>
+    <RootNamespace>GradingApp</RootNamespace>
+    <AssemblyName>GradingApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="EmployeePayrollReport.cs" />
-    <Compile Include="HrModule\Employee.cs" />
-    <Compile Include="HrModule\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

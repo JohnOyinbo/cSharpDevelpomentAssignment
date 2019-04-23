@@ -12,6 +12,14 @@ namespace LearningOOP
     {
         static void Main(string[] args)
         {
+           string doc = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            EmployeePayrollReport epr = new EmployeePayrollReport();
+            epr.GenerateReport(doc +"\\April_2019_Salary_Report", EmployeePayrollReport.DocumentType.Txt);
+            Console.ReadLine();
+
+
+
+
             Car a = new Car();
             a.Brand = "Bugatti";
             a.Color = "Black";

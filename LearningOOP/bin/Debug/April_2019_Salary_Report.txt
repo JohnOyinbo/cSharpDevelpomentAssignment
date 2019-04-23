@@ -1,0 +1,2 @@
+salary for employee 001 id : NGN 315,000.00
+salary for employee 002 id : NGN 0.00
