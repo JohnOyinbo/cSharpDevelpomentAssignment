@@ -11,8 +11,10 @@ namespace NumberToString
     {
         static void Main(string[] args)
         {
-           Console.WriteLine(NumberToString.NumberToWords(857654));
-            Console.WriteLine(NumberToString.NumberToWords(7));
+            Console.WriteLine(NumberToString.NumberToWords(319000104));
+            Console.WriteLine(NumberToString.NumberToWords(104));
+            Console.WriteLine(NumberToString.NumberToWords(0));
+            Console.WriteLine(NumberToString.NumberToWords(1));
             Console.ReadLine();
 
         }

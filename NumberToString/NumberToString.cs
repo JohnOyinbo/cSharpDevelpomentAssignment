@@ -8,7 +8,7 @@ namespace NumberToString
 {
     public class NumberToString
     {
-        public static String[] ones = { "", "one", "two", "three", "four", "five",
+        public static String[] ones = { "zero", "one", "two", "three", "four", "five",
             "six", "seven", "eight", "nine", "ten", "eleven", "twelve",
             "thirteen", "fourteen", "fifteen", "sixteen", "seventeen",
             "eighteen", "nineteen" };
@@ -68,7 +68,9 @@ namespace NumberToString
                 {
                     a = ThreeDigitToWord(firstPart) + " thousand";
                 }
-                
+
+                else if (num % 1000 != 0 && num%1000 < 100 )
+                    a = ThreeDigitToWord(firstPart) + " thousand and " + ThreeDigitToWord(num % 1000);
                 else
                 {
                     a = ThreeDigitToWord(firstPart) + " thousand, " + ThreeDigitToWord(num % 1000);
@@ -82,6 +84,8 @@ namespace NumberToString
                 {
                     a = Twodigit(firstPart) + " thousand";
                 }
+                else if (num % 1000 != 0 && num % 1000 < 100)
+                    a = ThreeDigitToWord(firstPart) + " thousand and " + ThreeDigitToWord(num % 1000);
                 else
                 {
                     a = Twodigit(firstPart) + " thousand, " + ThreeDigitToWord(num % 1000);
@@ -93,6 +97,8 @@ namespace NumberToString
                 {
                     a = Twodigit(firstPart) + " thousand";
                 }
+                else if (num % 1000 != 0 && num % 1000 < 100)
+                    a = ThreeDigitToWord(firstPart) + " thousand and " + ThreeDigitToWord(num % 1000);
                 else
                 {
                     a = Twodigit(firstPart) + " thousand, " + ThreeDigitToWord(num % 1000);
@@ -116,6 +122,8 @@ namespace NumberToString
                 {
                     a = ThreeDigitToWord(firstPart) + "million";
                 }
+                else if (num % 1000000 != 0 && num % 1000000 < 100)
+                    a = ThreeDigitToWord(firstPart) + " million and " + ThreeDigitToWord(num % 1000);
                 else
                 {
                     a = ThreeDigitToWord(firstPart) + " million, " + ThousandsToWord(num % 1000000);
@@ -127,6 +135,8 @@ namespace NumberToString
                 {
                     a = Twodigit(firstPart) + " million";
                 }
+                else if (num % 1000000 != 0 && num % 1000000 < 100)
+                    a = ThreeDigitToWord(firstPart) + " million and " + ThreeDigitToWord(num % 1000);
                 else
                 {
                     a = Twodigit(firstPart) + " million, " + ThousandsToWord(num % 1000000);
