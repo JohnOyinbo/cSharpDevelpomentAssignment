@@ -8,7 +8,6 @@ C:\Users\John Oyinbo\source\repos\BaseConverter\DaysToChristmas\obj\Debug\DaysTo
 C:\Users\John Oyinbo\source\repos\ConsoleApps\DaysToChristmas\bin\Debug\DaysToChristmas.exe.config
 C:\Users\John Oyinbo\source\repos\ConsoleApps\DaysToChristmas\bin\Debug\DaysToChristmas.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\DaysToChristmas\bin\Debug\DaysToChristmas.pdb
-C:\Users\John Oyinbo\source\repos\ConsoleApps\DaysToChristmas\obj\Debug\DaysToChristmas.csprojAssemblyReference.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\DaysToChristmas\obj\Debug\DaysToChristmas.csproj.CoreCompileInputs.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\DaysToChristmas\obj\Debug\DaysToChristmas.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\DaysToChristmas\obj\Debug\DaysToChristmas.pdb

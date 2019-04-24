@@ -1,0 +1,5 @@
+C:\Users\John Oyinbo\source\repos\ConsoleApps\JohnWhiteUtilityFunctions\bin\Debug\JohnWhiteUtilityFunctions.dll
+C:\Users\John Oyinbo\source\repos\ConsoleApps\JohnWhiteUtilityFunctions\bin\Debug\JohnWhiteUtilityFunctions.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\JohnWhiteUtilityFunctions\obj\Debug\JohnWhiteUtilityFunctions.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\JohnWhiteUtilityFunctions\obj\Debug\JohnWhiteUtilityFunctions.dll
+C:\Users\John Oyinbo\source\repos\ConsoleApps\JohnWhiteUtilityFunctions\obj\Debug\JohnWhiteUtilityFunctions.pdb

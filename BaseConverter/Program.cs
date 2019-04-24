@@ -22,74 +22,55 @@ namespace BinaryNumbers
             
 
         }
-        static string ConvertToBinary(int i)
-        {
-            string binaryNumber = "";
-        startHere:
-            if (i > 0)
-            {
 
-                int binaryDigit = i % 2;
-                i = i / 2;
-                binaryNumber = binaryDigit.ToString() + binaryNumber;
-            }
-            else
-            {
-                return binaryNumber;
-            }
-            goto startHere;
-
-
-
-        }
 
         static string ConvertNumber(string num, string n, string newBase)
         {
             // num is the number to be converted to decimal
             // n is the current base of the number to be converted
             // newBase is the number base we're converting to
-            int n2 =int.Parse(n); //n2 is converting n from string type to int
+            int n2 = int.Parse(n); //n2 is converting n from string type to int
             int newBase2 = int.Parse(newBase); //newBase is converting n from string type to int
 
             long decimalNumber = 0;
-           
-          
-          
+
+
             // num = 2a5
             string digits = "0123456789ABCDEF";
             string number = num.ToUpper();
             int power = num.Length - 1;
-            for (int i=0; i < num.Length; i++)
+            for (int i = 0; i < num.Length; i++)
             {
                 string value = number.Substring(i, 1);
                 int val = digits.IndexOf(value);
-                decimalNumber += val *(long) (Math.Pow(n2,power));
+                decimalNumber += val * (long)(Math.Pow(n2, power));
                 power--;
-               
-            }
-          
-            string finalNumber = "";
-           
-        startHere:
-            if (decimalNumber > 0)
-            {
 
-                long newDigit = decimalNumber % newBase2;
-                while(newDigit >= 10)
+            }
+           
+                string finalNumber = "";
+
+
+            startHere:
+                if (decimalNumber > 0)
                 {
-                    newDigit = digits[Convert.ToInt32(newDigit)];
+                    int newDigit = (int)(decimalNumber % (long)newBase2);
+                    if (newDigit >= 0)
+                    {
+                        char digit = digits[newDigit];
+                        decimalNumber = decimalNumber / newBase2;
+                        finalNumber = digit + finalNumber;
+                    }
+
                 }
-                decimalNumber = decimalNumber / newBase2;
-                finalNumber = newDigit.ToString() + finalNumber;
+                else
+                {
+                    return finalNumber;
+                }
+                goto startHere;
             }
-            else
-            {
-                return finalNumber;
-            }
-            goto startHere;
-             
-        }
         
+    
 
     }
 }

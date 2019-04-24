@@ -1,7 +1,6 @@
 C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberParity\bin\Debug\NumberParity.exe.config
 C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberParity\bin\Debug\NumberParity.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberParity\bin\Debug\NumberParity.pdb
-C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberParity\obj\Debug\NumberParity.csprojAssemblyReference.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberParity\obj\Debug\NumberParity.csproj.CoreCompileInputs.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberParity\obj\Debug\NumberParity.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\NumberParity\obj\Debug\NumberParity.pdb

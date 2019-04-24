@@ -1,0 +1,5 @@
+C:\Users\John Oyinbo\source\repos\ConsoleApps\crm.core\bin\Debug\crm.core.dll
+C:\Users\John Oyinbo\source\repos\ConsoleApps\crm.core\bin\Debug\crm.core.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\crm.core\obj\Debug\crm.core.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\crm.core\obj\Debug\crm.core.dll
+C:\Users\John Oyinbo\source\repos\ConsoleApps\crm.core\obj\Debug\crm.core.pdb

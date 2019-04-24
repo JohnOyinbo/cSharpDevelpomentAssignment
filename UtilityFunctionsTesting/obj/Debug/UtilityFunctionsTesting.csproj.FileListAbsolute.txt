@@ -1,0 +1,10 @@
+C:\Users\John Oyinbo\source\repos\ConsoleApps\UtilityFunctionsTesting\obj\Debug\UtilityFunctionsTesting.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\UtilityFunctionsTesting\bin\Debug\UtilityFunctionsTesting.exe.config
+C:\Users\John Oyinbo\source\repos\ConsoleApps\UtilityFunctionsTesting\bin\Debug\UtilityFunctionsTesting.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\UtilityFunctionsTesting\bin\Debug\UtilityFunctionsTesting.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\UtilityFunctionsTesting\bin\Debug\JohnWhiteUtilityFunctions.dll
+C:\Users\John Oyinbo\source\repos\ConsoleApps\UtilityFunctionsTesting\bin\Debug\JohnWhiteUtilityFunctions.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\UtilityFunctionsTesting\obj\Debug\UtilityFunctionsTesting.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\UtilityFunctionsTesting\obj\Debug\UtilityFunctionsTesting.csproj.CopyComplete
+C:\Users\John Oyinbo\source\repos\ConsoleApps\UtilityFunctionsTesting\obj\Debug\UtilityFunctionsTesting.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\UtilityFunctionsTesting\obj\Debug\UtilityFunctionsTesting.pdb

@@ -1,0 +1,2 @@
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\obj\Debug\ProductCostingApp.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\obj\Debug\ProductCostingApp.csprojAssemblyReference.cache
