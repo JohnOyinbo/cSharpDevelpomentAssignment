@@ -12,11 +12,11 @@ namespace NumberToString
         static void Main(string[] args)
         {
             Console.WriteLine(NumberToString.NumberToWords(900990099009));
-            Console.WriteLine(NumberToString.NumberToWords(9000020000));
+            Console.WriteLine(NumberToString.NumberToWords(00000000009));
             Console.WriteLine(NumberToString.NumberToWords(150030040020));
             Console.WriteLine(NumberToString.NumberToWords(913030006007));
             Console.WriteLine(NumberToString.NumberToWords(90000000000009));
-            Console.WriteLine(NumberToString.NumberToWords(05));
+            Console.WriteLine(NumberToString.NumberToWords(00011100090));
             Console.ReadLine();
         }
 

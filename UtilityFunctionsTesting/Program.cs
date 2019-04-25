@@ -13,9 +13,9 @@ namespace UtilityFunctionsTesting
         static void Main(string[] args)
         {
             WriteLine(NumberParity.IsOdd(5));
-            WriteLine(NumberToString.NumberToWords(52122484548));
+            WriteLine(NumberToString.NumberToWords(520122484548));
             WriteLine(GradingFunction.Grade(56));
-            WriteLine(BaseConverter.ConvertNumber("985","10","16"));
+            WriteLine(BaseConverter.ConvertNumber("985",10,16));
             ReadLine();
         }
     }

@@ -299,16 +299,14 @@ namespace JohnWhiteUtilityFunctions
         }
         public class BaseConverter
         {
-            public static string ConvertNumber(string num, string n, string newBase)
+            public static string ConvertNumber(string num, int n, int newBase)
             {
-                // num is the number to be converted to decimal
+                // num is the number to be converted
                 // n is the current base of the number to be converted
                 // newBase is the number base we're converting to
-                int n2 = int.Parse(n); //n2 is converting n from string type to int
-                int newBase2 = int.Parse(newBase); //newBase is converting n from string type to int
+                
 
                 long decimalNumber = 0;
-
 
                 // num = 2a5
                 string digits = "0123456789ABCDEF";
@@ -318,7 +316,7 @@ namespace JohnWhiteUtilityFunctions
                 {
                     string value = number.Substring(i, 1);
                     int val = digits.IndexOf(value);
-                    decimalNumber += val * (long)(Math.Pow(n2, power));
+                    decimalNumber += val * (long)(Math.Pow(n, power));
                     power--;
 
                 }
@@ -329,11 +327,11 @@ namespace JohnWhiteUtilityFunctions
             startHere:
                 if (decimalNumber > 0)
                 {
-                    int newDigit = (int)(decimalNumber % (long)newBase2);
+                    int newDigit = (int)(decimalNumber % (long)newBase);
                     if (newDigit >= 0)
                     {
                         char digit = digits[newDigit];
-                        decimalNumber = decimalNumber / newBase2;
+                        decimalNumber = decimalNumber / newBase;
                         finalNumber = digit + finalNumber;
                     }
 

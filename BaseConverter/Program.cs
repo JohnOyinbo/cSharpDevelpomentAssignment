@@ -19,8 +19,6 @@ namespace BinaryNumbers
             string newBase = Console.ReadLine();
             Console.WriteLine($"{num} in base {n} is equal to \"{ConvertNumber(num, n, newBase)} in base {newBase}\"");
             goto starthere;
-            
-
         }
 
 
