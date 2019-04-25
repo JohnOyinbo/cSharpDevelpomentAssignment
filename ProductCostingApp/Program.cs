@@ -10,6 +10,10 @@ namespace ProductCostingApp
     {
         static void Main(string[] args)
         {
+            Product n1 = new Product();
+        }
+        static void Main2()
+        {
             UserIdentity user1 = new UserIdentity();
             user1.CompanyInfo.Name = "jr lmt";
             Console.WriteLine(user1.CompanyInfo.Name);
