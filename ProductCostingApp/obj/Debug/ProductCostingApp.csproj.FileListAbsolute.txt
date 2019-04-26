@@ -1,2 +1,10 @@
 C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\obj\Debug\ProductCostingApp.csproj.CoreCompileInputs.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\obj\Debug\ProductCostingApp.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\bin\Debug\ProductCostingApp.exe.config
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\bin\Debug\ProductCostingApp.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\bin\Debug\ProductCostingApp.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\bin\Debug\ItemCostPlatform.Core.dll
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\bin\Debug\ItemCostPlatform.Core.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\obj\Debug\ProductCostingApp.csproj.CopyComplete
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\obj\Debug\ProductCostingApp.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ProductCostingApp\obj\Debug\ProductCostingApp.pdb
