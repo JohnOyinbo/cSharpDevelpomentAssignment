@@ -1,7 +1,7 @@
 C:\Users\John Oyinbo\source\repos\ConsoleApps\StateDirectory\bin\Debug\StateDirectory.exe.config
 C:\Users\John Oyinbo\source\repos\ConsoleApps\StateDirectory\bin\Debug\StateDirectory.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\StateDirectory\bin\Debug\StateDirectory.pdb
-C:\Users\John Oyinbo\source\repos\ConsoleApps\StateDirectory\obj\Debug\StateDirectory.csprojAssemblyReference.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\StateDirectory\obj\Debug\StateDirectory.csproj.CoreCompileInputs.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\StateDirectory\obj\Debug\StateDirectory.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\StateDirectory\obj\Debug\StateDirectory.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\StateDirectory\obj\Debug\StateDirectory.csprojAssemblyReference.cache

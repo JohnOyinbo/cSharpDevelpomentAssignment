@@ -3,4 +3,3 @@ C:\Users\John Oyinbo\source\repos\ConsoleApps\JohnWhiteUtilityFunctions\bin\Debu
 C:\Users\John Oyinbo\source\repos\ConsoleApps\JohnWhiteUtilityFunctions\obj\Debug\JohnWhiteUtilityFunctions.csproj.CoreCompileInputs.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\JohnWhiteUtilityFunctions\obj\Debug\JohnWhiteUtilityFunctions.dll
 C:\Users\John Oyinbo\source\repos\ConsoleApps\JohnWhiteUtilityFunctions\obj\Debug\JohnWhiteUtilityFunctions.pdb
-C:\Users\John Oyinbo\source\repos\ConsoleApps\JohnWhiteUtilityFunctions\obj\Debug\JohnWhiteUtilityFunctions.csprojAssemblyReference.cache

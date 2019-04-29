@@ -10,45 +10,68 @@ namespace StateDirectory
     {
         static void Main(string[] args)
         {
-            //int i = 37;
-            //Console.WriteLine($"{i}. {states[i-1]}");
-            Console.WriteLine(northCentral.Length + northEast.Length + northWest.Length + southEast.Length + southSouth.Length + southWest.Length);
-            Console.WriteLine(benue[1]);
-
-            Console.WriteLine("welcome, there are 6 geo political zones in nigeria \n press 1 to display them or press 2 to display the states");
+            Console.WriteLine("welcome, there are 6 geo political zones in nigeria \n press 1 to display them ");
             int a = Convert.ToInt32(Console.ReadLine());
-            if (a==1)
-            {
-                for (int i=0; i < geoPoliticalZones.Length; i++)
-                {
-                    Console.WriteLine($"{i+1}. {geoPoliticalZones[i]}");
-                }
-                Console.ReadLine();
-
-                Console.WriteLine("select a Geo Political Zone");
-                int b = Convert.ToInt32(Console.ReadLine());
-
-                var x = geoPoliticalZones2[b - 1] ;
-                for (int i = 0; i < x.Length; i++)
-                {
-                    Console.WriteLine($"{i + 1}. {x[i]}");
-                }
-                Console.ReadLine();
-
-            }
-            else if (a==2)
-            {
-                for (int i = 0; i < states.Length; i++)
-                {
-                    Console.WriteLine($"{i + 1}. {states[i]}");
-                }
-            }
-
-
-
-
+            Console.WriteLine(DisplayGeoPoliticalZones(a));
+            Console.WriteLine("select a geoPolitical zone");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(DisplayStates(b));
+            Console.WriteLine("select a states");
             Console.ReadLine();
         }
+        static string DisplayGeoPoliticalZones(int a)
+        {
+            
+
+            string c = "";
+            if (a == 1)
+            {
+               
+                for (int i = 0; i < geoPoliticalZones.Length; i++)
+                {
+                    c +=   ($"{i + 1}. {geoPoliticalZones[i]}\n");
+                }
+                              
+            }
+            else
+            {
+                c = "input a valid number";
+            }
+
+            return c;
+        }
+        static string DisplayStates(int b)
+        {
+            
+                string c = "";
+                var x = geoPoliticalZones2[b - 1];
+                for (int i = 0; i < x.Length; i++)
+                {
+                    c += ($"{i + 1}. {x[i]}\n");
+                }
+                return c;
+            
+
+        }
+        static string DisplayLGA(int b)
+        {
+
+            string c = "";
+            foreach (string[][] x in geoPoliticalZones3)
+            {
+              
+                
+                for (int i = 0; i < x.Length; i++)
+                {
+                    c += ($"{i + 1}. {x[i]}\n");
+                }
+            }
+            
+            return c;
+
+
+        }
+
         public static string[] geoPoliticalZones = {"North Central", "North East", "North West", "South East", "South South", "South West"};
         public static string[] states = { "Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue", "Borno", "Cross River",
                                         "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu", "Gombe", "Imo", "Jigawa", "Kaduna", "Kano", "Katsina",
@@ -151,24 +174,18 @@ namespace StateDirectory
                                     "Atisbo","Saki West","Saki East","Itesiwaju","Iwajowa","Ibarapa North","Olorunsogo","Oluyole","Ogo Oluwa","Surulere","Orelope","Ori Ire","Oyo East","Ona Ara"};
 
 
+        
         // Arrays of Arrays
 
         public static string[][] geoPoliticalZones2 = { northCentral, northEast, northWest, southEast, southSouth, southWest, };
+        public static string[][][] geoPoliticalZones3 = { northCentral2, northEast2, northWest2, southEast2, southSouth2, southWest2, };
         public static string[][] northCentral2 = {benue, kogi, kwara, nasarawa, niger, plateau, fct };
         public static string[][] northEast2 = { adamawa, bauchi, borno, gombe, taraba, yobe };
         public static string[][] northWest2 = { jigawa, kaduna, kano, katsina, kebbi, sokoto, zamfara };
         public static string[][] southEast2 = { abia, anambra, ebonyi, enugu, imo };
         public static string[][] southSouth2 = { akwaIbom, bayelsa, crossRiver, rivers,delta, edo };
         public static string[][] southWest2 = {ekiti, lagos, ogun, ondo, osun, oyo };
-        static string StateDirectory()
-        {
-
-
-
-
-
-            return "";
-        }
+        
 
     }
 }
