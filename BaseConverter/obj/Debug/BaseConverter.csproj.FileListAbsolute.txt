@@ -11,3 +11,4 @@ C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\bin\Debug\BaseConver
 C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\obj\Debug\BaseConverter.csproj.CoreCompileInputs.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\obj\Debug\BaseConverter.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\obj\Debug\BaseConverter.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\BaseConverter\obj\Debug\BaseConverter.csprojAssemblyReference.cache

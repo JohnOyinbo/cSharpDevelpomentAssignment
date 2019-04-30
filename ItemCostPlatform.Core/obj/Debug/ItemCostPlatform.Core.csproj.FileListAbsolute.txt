@@ -3,3 +3,4 @@ C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\bin\Debug\It
 C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\obj\Debug\ItemCostPlatform.Core.csproj.CoreCompileInputs.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\obj\Debug\ItemCostPlatform.Core.dll
 C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\obj\Debug\ItemCostPlatform.Core.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\obj\Debug\ItemCostPlatform.Core.csprojAssemblyReference.cache

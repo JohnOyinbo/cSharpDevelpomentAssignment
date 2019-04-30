@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Text.RegularExpressions;
 
 namespace RandomQuiz
 {
@@ -11,53 +10,143 @@ namespace RandomQuiz
     {
         static void Main(string[] args)
         {
-           
-           
+        
+            int i = 0;
+            beginHere:
+            while (i < 10)
+            {
+                Questions a = QuestionDatabase();
+                Console.WriteLine(a);
+                string userInput = Console.ReadLine();
+
+                Console.WriteLine(Grading(a, userInput));
+            }
+            goto beginHere;
+            
+
+
+
         }
 
-        static void QuestionDatabase()
+        static Questions QuestionDatabase()
         {
             // question 1
-            Options option1 = new Options
-            {
-                OptionA = "Russia",
-                OptionB = "America",
-                OptionC = "China",
-                OptionD = "India",
-            };
             Questions question1 = new Questions
             {
                 Question = "What is the biggest country in the world?",
-
-                Options = option1
+                Answer = "Russia",
+                Options = new string[] { "Russia", "U.S.A", "China", "India" }
             };
 
-
-            //question 2
-            Options option2 = new Options
-            {
-                OptionA = "8 billion",
-                OptionB = "6 billion",
-                OptionC = "7 billion",
-                OptionD = "5 billion"
-            };
             Questions question2 = new Questions
             {
-                Question = "Approximately how many people live on earth",
-
-                Options = option2
+                Question = "Approximately how many people live on earth?",
+                Answer = "7 billion",
+                Options = new string[] { "8 billion", "7 billion", "9 billion", "6 billion" }
             };
+
+            Questions question3 = new Questions
+            {
+                Question = "What is the biggest river in the world?",
+                Answer = "Nile",
+                Options = new string[] { "Nile", "Amazon", "Mississippi-Missouri", "Chang Jiang (Yangtze)" }
+            };
+            Questions question4 = new Questions
+            {
+                Question = "What is the highest mountain in the world?",
+                Answer = "Mount Everest",
+                Options = new string[] { "Mount Everest", "K-2", "Kangchenjunga", "Lhotse" }
+            };
+            Questions question5 = new Questions
+            {
+                Question = "What is the largest coffee growing country in the world?",
+                Answer = "Brazil",
+                Options = new string[] { "America", "Brazil", "Italy", "England" }
+            };
+            Questions question6 = new Questions
+            {
+                Question = "In what city were the 2000 Olympics held in australia?",
+                Answer = "Sydney",
+                Options = new string[] { "Melbourne", "Sydney", "Canberra", "Hobart" }
+            };
+            Questions question7 = new Questions
+            {
+                Question = "What is the capital city of New zealand?",
+                Answer = "Wellington",
+                Options = new string[] { "Wellington", "Christchurch", "Auckland", "Hamilton" }
+            };
+            Questions question8 = new Questions
+            {
+                Question = "Which indoor sport is the most popular in the US?",
+                Answer = "Basketball",
+                Options = new string[] { "Indoor soccer", "Basketball", "Swimming", "Football" }
+            };
+            Questions question9 = new Questions
+            {
+                Question = "In which country was golf first played?",
+                Answer = "Scotland",
+                Options = new string[] { "England", "Scotland", "Australia", "America" }
+            };
+            Questions question10 = new Questions
+            {
+                Question = "Which state is the biggest in the US?",
+                Answer = "California",
+                Options = new string[] { "New York", "California", "Alaska", "Texas" }
+            };
+
+            Questions[] questions = { question1, question2, question3, question4, question5, question6, question7, question8, question9, question10 };
+
+
+            int[] numbers = new int[10];
+            Random random = new Random();
+            var counter = 0;
+            do
+            {
+                var randomNumber = random.Next(1, 11);
+                if (Array.IndexOf(numbers, randomNumber) == -1)
+                {
+                    numbers[counter] = randomNumber;
+                    counter++;
+                }
+            } while (counter < 10);
+            int i = 0;
+            starthere:
+            while (i<10)
+            {
+              return questions[numbers[i] - 1];
+            }
+            i++;
+            goto starthere;
+
             
 
-            //question 3
-            Questions question3 = new Questions();
-            question3.Question = "What is the biggest river in the world?";
-            question3.Options.OptionA = "Nile";
-            question3.Options.OptionB = "Amazon";
-            question3.Options.OptionC = "Mississippi-Missouri";
-            question3.Options.OptionD = "Chang Jiang (Yangtze) ";
-            question3.Options.CorrectOption = question3.Options.OptionA;
+        }
+        static int Grading(Questions a, string userInput)
+        {
+            
+           string userInput2;
+            int score = 0;
+            if (userInput == "a")
+                userInput2 = a.Options[a.numbers[0] - 1];
+            else if (userInput == "b")
+                userInput2 = a.Options[a.numbers[1] - 1];
+            else if (userInput == "c")
+                userInput2 = a.Options[a.numbers[2] - 1];
+            else if (userInput == "d")
+                userInput2 = a.Options[a.numbers[3] - 1];
+            else
+                userInput2 = "";
+            if (userInput2 == a.Answer)
+                score += 10;
+            else
+                score += 0;
+            return score;
+
+
 
         }
+
+
+
     }
 }
