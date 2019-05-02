@@ -14,10 +14,10 @@ namespace RandomQuiz
         public string Question { get; set; }
         public string Answer { get; set; }
         public string[] Options = new string[4];
-        public readonly int[] numbers = new int[4]; 
+        public readonly int[] numbers = new int[4];
         public Questions()
         {
-            
+
             Random random = new Random();
             var counter = 0;
             do
@@ -29,7 +29,8 @@ namespace RandomQuiz
                     counter++;
                 }
             } while (counter < 4);
-
+          
+        
            
         }
         public override string ToString()
