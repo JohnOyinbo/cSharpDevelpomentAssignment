@@ -17,7 +17,13 @@ namespace BinaryNumbers
             string n = Console.ReadLine();
             Console.WriteLine("Input the newBase");
             string newBase = Console.ReadLine();
-            Console.WriteLine($"{num} in base {n} is equal to \"{ConvertNumber(num, n, newBase)} in base {newBase}\"");
+            if (IsNumberValid(num, n))
+            {
+                Console.WriteLine();
+                Console.WriteLine($"{num} in base {n} is equal to \"{ConvertNumber(num, n, newBase)} in base {newBase}\"");
+            }
+            else
+                Console.WriteLine("incorrect number format");
             goto starthere;
         }
 
@@ -67,6 +73,20 @@ namespace BinaryNumbers
                 }
                 goto startHere;
             }
+        static bool IsNumberValid(string num, string n)
+        {
+            string digits = "0123456789ABCDEF";
+            string number = num.ToUpper();
+            int n2 = Convert.ToInt32(n);
+            bool a = true;
+            for(int i = 0; i < num.Length; i++)
+            {
+                string value = number.Substring(i, 1);
+                int val = digits.IndexOf(value);
+                 a = a && (val >= n2);
+            }
+            return a;
+        }
         
     
 

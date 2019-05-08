@@ -11,3 +11,4 @@ C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\bin\Debug\LearningOOP.
 C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\obj\Debug\LearningOOP.csproj.CoreCompileInputs.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\obj\Debug\LearningOOP.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\obj\Debug\LearningOOP.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\LearningOOP\obj\Debug\LearningOOP.csprojAssemblyReference.cache

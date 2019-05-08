@@ -304,45 +304,64 @@ namespace JohnWhiteUtilityFunctions
                 // num is the number to be converted
                 // n is the current base of the number to be converted
                 // newBase is the number base we're converting to
+                if (IsNumberValid(num, n))
+                {
+                    long decimalNumber = 0;
+
+                    // num = 2a5
+                    string digits = "0123456789ABCDEF";
+                    string number = num.ToUpper();
+                    int power = num.Length - 1;
+                    for (int i = 0; i < num.Length; i++)
+                    {
+                        string value = number.Substring(i, 1);
+                        int val = digits.IndexOf(value);
+                        decimalNumber += val * (long)(Math.Pow(n, power));
+                        power--;
+
+                    }
+
+                    string finalNumber = "";
+
+
+                startHere:
+                    if (decimalNumber > 0)
+                    {
+                        int newDigit = (int)(decimalNumber % (long)newBase);
+                        if (newDigit >= 0)
+                        {
+                            char digit = digits[newDigit];
+                            decimalNumber = decimalNumber / newBase;
+                            finalNumber = digit + finalNumber;
+                        }
+
+                    }
+                    else
+                    {
+                        return finalNumber;
+                    }
+                    goto startHere;
+
+
+                }
+                else
+                    return "invalid input";
                 
-
-                long decimalNumber = 0;
-
-                // num = 2a5
+            }
+            static bool IsNumberValid(string num, int n)
+            {
                 string digits = "0123456789ABCDEF";
                 string number = num.ToUpper();
-                int power = num.Length - 1;
+                bool a = true;
                 for (int i = 0; i < num.Length; i++)
                 {
                     string value = number.Substring(i, 1);
                     int val = digits.IndexOf(value);
-                    decimalNumber += val * (long)(Math.Pow(n, power));
-                    power--;
-
+                    a = a && (val >= n);
                 }
-
-                string finalNumber = "";
-
-
-            startHere:
-                if (decimalNumber > 0)
-                {
-                    int newDigit = (int)(decimalNumber % (long)newBase);
-                    if (newDigit >= 0)
-                    {
-                        char digit = digits[newDigit];
-                        decimalNumber = decimalNumber / newBase;
-                        finalNumber = digit + finalNumber;
-                    }
-
-                }
-                else
-                {
-                    return finalNumber;
-                }
-                goto startHere;
+                return a;
             }
 
-        }
+            }
     }
 }

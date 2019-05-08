@@ -4,3 +4,5 @@ C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\obj\Debug\It
 C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\obj\Debug\ItemCostPlatform.Core.dll
 C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\obj\Debug\ItemCostPlatform.Core.pdb
 C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\obj\Debug\ItemCostPlatform.Core.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\bin\Debug\crm.core.dll
+C:\Users\John Oyinbo\source\repos\ConsoleApps\ItemCostPlatform.Core\bin\Debug\crm.core.pdb

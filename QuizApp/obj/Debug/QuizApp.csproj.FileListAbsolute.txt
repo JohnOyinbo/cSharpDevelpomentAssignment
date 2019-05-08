@@ -1,7 +1,6 @@
 C:\Users\John Oyinbo\source\repos\ConsoleApps\QuizApp\bin\Debug\QuizApp.exe.config
 C:\Users\John Oyinbo\source\repos\ConsoleApps\QuizApp\bin\Debug\QuizApp.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\QuizApp\bin\Debug\QuizApp.pdb
-C:\Users\John Oyinbo\source\repos\ConsoleApps\QuizApp\obj\Debug\QuizApp.csprojAssemblyReference.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\QuizApp\obj\Debug\QuizApp.csproj.CoreCompileInputs.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\QuizApp\obj\Debug\QuizApp.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\QuizApp\obj\Debug\QuizApp.pdb

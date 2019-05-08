@@ -1,0 +1,7 @@
+C:\Users\John Oyinbo\source\repos\ConsoleApps\InheritanceAndPolymorphism\bin\Debug\InheritanceAndPolymorphism.exe.config
+C:\Users\John Oyinbo\source\repos\ConsoleApps\InheritanceAndPolymorphism\bin\Debug\InheritanceAndPolymorphism.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\InheritanceAndPolymorphism\bin\Debug\InheritanceAndPolymorphism.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\InheritanceAndPolymorphism\obj\Debug\InheritanceAndPolymorphism.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\InheritanceAndPolymorphism\obj\Debug\InheritanceAndPolymorphism.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\InheritanceAndPolymorphism\obj\Debug\InheritanceAndPolymorphism.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\InheritanceAndPolymorphism\obj\Debug\InheritanceAndPolymorphism.pdb

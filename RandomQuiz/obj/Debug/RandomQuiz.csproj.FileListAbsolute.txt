@@ -4,4 +4,3 @@ C:\Users\John Oyinbo\source\repos\ConsoleApps\RandomQuiz\bin\Debug\RandomQuiz.pd
 C:\Users\John Oyinbo\source\repos\ConsoleApps\RandomQuiz\obj\Debug\RandomQuiz.csproj.CoreCompileInputs.cache
 C:\Users\John Oyinbo\source\repos\ConsoleApps\RandomQuiz\obj\Debug\RandomQuiz.exe
 C:\Users\John Oyinbo\source\repos\ConsoleApps\RandomQuiz\obj\Debug\RandomQuiz.pdb
-C:\Users\John Oyinbo\source\repos\ConsoleApps\RandomQuiz\obj\Debug\RandomQuiz.csprojAssemblyReference.cache

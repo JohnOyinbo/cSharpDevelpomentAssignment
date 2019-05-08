@@ -15,7 +15,7 @@ namespace RandomQuiz
             {
                 Questions a = QuestionDatabase()[index[j] - 1];
                 Console.WriteLine($"{j+1}. {a}");
-                string userOption = Console.ReadLine();
+                string userOption = Console.ReadLine().ToLower();
                 Grading(a, userOption);
             }
             Console.WriteLine($"your score is {score}%");
@@ -134,9 +134,6 @@ namespace RandomQuiz
             else
                 score += 0;
             return score;
-
-
-
         }
     }
 }

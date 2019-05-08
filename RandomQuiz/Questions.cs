@@ -9,8 +9,6 @@ namespace RandomQuiz
     public class Questions
 
     {
-        
-
         public string Question { get; set; }
         public string Answer { get; set; }
         public string[] Options = new string[4];
@@ -29,9 +27,6 @@ namespace RandomQuiz
                     counter++;
                 }
             } while (counter < 4);
-          
-        
-           
         }
         public override string ToString()
         {
@@ -41,14 +36,6 @@ b. {Options[numbers[1] - 1]}
 c. {Options[numbers[2] - 1]}
 d. {Options[numbers[3] - 1]}";
         }
-
-
-
-
-
-
-
-
 
     }
 }
