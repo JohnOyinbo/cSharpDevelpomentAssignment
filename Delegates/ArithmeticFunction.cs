@@ -19,7 +19,6 @@ namespace Delegates
             {
                 result += number;
             }
-            Console.WriteLine($"The addition of all the inputed numbers gives : {result}");
             return result;
         }
         public static double Subtract(params double[] numbers)
@@ -29,7 +28,6 @@ namespace Delegates
             {
                 result -= numbers[i];
             }
-            Console.WriteLine($"The Subtraction of all the inputed numbers gives : {result}");
             return result;
         }
         public static double Multiply(params double[] numbers)
@@ -39,7 +37,6 @@ namespace Delegates
             {
                 result *= numbers[i];
             }
-            Console.WriteLine($"The Multiplication of all the inputed numbers gives : {result}");
             return result;
         }
         public static double Divide(params double[] numbers)
@@ -49,9 +46,7 @@ namespace Delegates
             {
                 result /= numbers[i];
             }
-            Console.WriteLine($"The division of all the inputed numbers gives : {result}");
             return result;
         }
-
     }
 }
