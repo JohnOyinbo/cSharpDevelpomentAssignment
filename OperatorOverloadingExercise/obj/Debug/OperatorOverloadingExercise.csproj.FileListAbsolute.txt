@@ -1,0 +1,7 @@
+C:\Users\John Oyinbo\source\repos\ConsoleApps\OperatorOverloadingExercise\bin\Debug\OperatorOverloadingExercise.exe.config
+C:\Users\John Oyinbo\source\repos\ConsoleApps\OperatorOverloadingExercise\bin\Debug\OperatorOverloadingExercise.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\OperatorOverloadingExercise\bin\Debug\OperatorOverloadingExercise.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\OperatorOverloadingExercise\obj\Debug\OperatorOverloadingExercise.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\OperatorOverloadingExercise\obj\Debug\OperatorOverloadingExercise.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\OperatorOverloadingExercise\obj\Debug\OperatorOverloadingExercise.exe
+C:\Users\John Oyinbo\source\repos\ConsoleApps\OperatorOverloadingExercise\obj\Debug\OperatorOverloadingExercise.pdb

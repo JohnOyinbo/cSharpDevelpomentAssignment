@@ -19,11 +19,7 @@ namespace Delegates
             Console.WriteLine($"The Subtraction of all the inputed numbers gives : {arithmeticDelegateSubtract(1, 2, 3, 4)}");
             Console.WriteLine($"The division of all the inputed numbers gives : {arithmeticDelegateDivide(1, 2, 3, 4)}");
             Console.WriteLine($"The Multiplication of all the inputed numbers gives : {arithmeticDelegateMultiply(1, 2, 3, 4)}");
-
-
             Console.ReadLine();
-            
-
         }
     }
 }
