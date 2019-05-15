@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloadingExercise", "OperatorOverloadingExercise\OperatorOverloadingExercise.csproj", "{505E9D75-94B8-455D-AF19-5DBD15E24BEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Lists\Collections.csproj", "{7583657A-2E80-4801-A759-51C3FED39B70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{505E9D75-94B8-455D-AF19-5DBD15E24BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{505E9D75-94B8-455D-AF19-5DBD15E24BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{505E9D75-94B8-455D-AF19-5DBD15E24BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7583657A-2E80-4801-A759-51C3FED39B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7583657A-2E80-4801-A759-51C3FED39B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7583657A-2E80-4801-A759-51C3FED39B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7583657A-2E80-4801-A759-51C3FED39B70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

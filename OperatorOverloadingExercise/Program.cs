@@ -21,7 +21,14 @@ namespace OperatorOverloadingExercise
             {
                 c1 *= digit;
             }
-            Console.WriteLine(c1.Numbers);
+            Console.WriteLine(c1);
+            Console.WriteLine(c1 + c2);
+            Console.WriteLine(c1 - c2);
+            Console.WriteLine(c1 * c2);
+            Console.WriteLine(c2--);
+            Console.WriteLine(c1++);
+
+
             Console.ReadLine();
         }
     }
@@ -47,11 +54,15 @@ namespace OperatorOverloadingExercise
         {
             var a = myClass1.Numbers + 1;
             return new MyClass1 { Numbers = a };
-        }
+        } 
         public static MyClass1 operator -- (MyClass1 myClass1)
         {
             var a = myClass1.Numbers - 1;
             return new MyClass1 { Numbers = a };
+        }
+        public override string ToString()
+        {
+            return this.Numbers.ToString();
         }
     }
     public class MyClass2
@@ -82,7 +93,10 @@ namespace OperatorOverloadingExercise
             var a = myClass2.Numbers - 1;
             return new MyClass2 { Numbers = a };
         }
-
+        public override string ToString()
+        {
+            return this.Numbers.ToString();
+        }
 
 
     }

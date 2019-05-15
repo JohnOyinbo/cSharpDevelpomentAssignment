@@ -1,0 +1,11 @@
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\bin\Debug\netcoreapp2.1\Collections.deps.json
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\bin\Debug\netcoreapp2.1\Collections.runtimeconfig.json
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\bin\Debug\netcoreapp2.1\Collections.runtimeconfig.dev.json
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\bin\Debug\netcoreapp2.1\Collections.dll
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\bin\Debug\netcoreapp2.1\Collections.pdb
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\obj\Debug\netcoreapp2.1\Collections.csprojAssemblyReference.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\obj\Debug\netcoreapp2.1\Collections.csproj.CoreCompileInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\obj\Debug\netcoreapp2.1\Collections.AssemblyInfoInputs.cache
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\obj\Debug\netcoreapp2.1\Collections.AssemblyInfo.cs
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\obj\Debug\netcoreapp2.1\Collections.dll
+C:\Users\John Oyinbo\source\repos\ConsoleApps\Lists\obj\Debug\netcoreapp2.1\Collections.pdb
