@@ -6,7 +6,23 @@ using System.Linq;
 namespace CollectionsClass
 
 {
-   
+    public class Student //: IComparable<Student>
+    {
+        public string LastName { get; set; }
+        public string FirstName { get; set; }
+        public int Age { get; set; }
+
+        //public int CompareTo(Student other)
+        //{
+        //    if (this.Age > other.Age)
+        //        return 1;
+        //    else if (this.Age < other.Age)
+        //        return -1;
+        //    else
+        //        return 0;
+        //}
+    }
+
     public class Program
     {
         public static void Main()
@@ -74,17 +90,14 @@ namespace CollectionsClass
             // LOOKUPS
             var gotLineup = new List<Student>()
         {
-            new Student(){LastName ="Stark", FirstName ="Robb", age = 40},
-             new Student(){LastName ="Lannister", FirstName ="Sersei", age = 43},
-            new Student(){LastName ="Stark", FirstName ="Sansa", age = 25},
-            new Student(){LastName ="Lannister", FirstName ="Jamie", age = 43},
-             new Student(){LastName ="Stark", FirstName ="Arya", age = 43},
-            new Student(){LastName ="Lannister", FirstName ="Tyrion",age = 40},
+            new Student(){LastName ="Stark", FirstName ="Robb", Age = 24},
+             new Student(){LastName ="Lannister", FirstName ="Cersei", Age = 43},
+            new Student(){LastName ="Stark", FirstName ="Sansa", Age = 20},
+            new Student(){LastName ="Lannister", FirstName ="Jamie", Age = 43},
+             new Student(){LastName ="Stark", FirstName ="Arya", Age = 18},
+            new Student(){LastName ="Lannister", FirstName ="Tyrion",Age = 40},
         };
-
-
             var family = gotLineup.ToLookup(c => c.LastName);
-
             foreach (var group in family)
             {
                 WriteLine(group.Key);
@@ -97,23 +110,27 @@ namespace CollectionsClass
 
                 WriteLine("\r");
             }
-
-
+            //ASSIGNMENT USING ICOMPARER (I used IComparable first and commented it out to use IComparer)
+            var compareAge = new CompareAge();
+            gotLineup.Sort(compareAge);
+            foreach (var person in gotLineup)
+            {
+                Console.WriteLine($"{person.FirstName} {person.LastName} is {person.Age} years old");
+            }
+            Console.ReadLine();
         }
-
-        public class Student
+         class CompareAge : IComparer<Student>
         {
-            public string LastName { get; set; }
-            public string FirstName { get; set; }
-            public int age { get; set; }
+            public int Compare(Student x, Student y)
+            {
+                if (x.Age > y.Age)
+                    return 1;
+                else if (x.Age < y.Age)
+                    return -1;
+                else
+                    return 0;
+            }
         }
-
-
     }
-
-
-
-
-
 }
 
